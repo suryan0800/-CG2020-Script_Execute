@@ -20,8 +20,8 @@ List of Activities created:
 3.	(Code) Script Executor
 
 Use Cases:
-For example purpose, I took Python. It can be any script language(C, C++, Nodejs etc.), if the interpreter is preinstalled. It can execute and get the output. It uses CMD to execute it.
-Since it can run any script file, it can be used for other purposes too. It would be easy for non C Sharp programmers like me and it will be easy to add features to the Robot as it doesn’t require any building, updating of Packages.  
+	For example purpose, I took Python. It can be any script language(C, C++, Nodejs etc.), if the interpreter is preinstalled. It can execute and get the output. It uses CMD to execute it.
+	Since it can run any script file, it can be used for other purposes too. It would be easy for non C Sharp programmers like me and it will be easy to add features to the Robot as it doesn’t require any building, updating of Packages.  
 
 1.	Scenario 1: (Example) A Python Teaching faculty assigns students a coding problem to solve. The faculty asks students to mail the zipped python script file as attachment with subject in some format. 
 Without Robot: The faculty has to download each mail, unzip each file, execute each python file, verify each output and enter marks in excel file manually (Tedious job).
@@ -37,28 +37,28 @@ Activity Documentation:
 
 Unzip File Activity:
 
-Input: 
-Zip File             - requires full path of the zip file (zip file must exist) (e.g. My Documents\Folder1\compressed.zip)
-Destination     - requires full destination path (e.g. My Documents\Folder1)
+	Input: 
+	Zip File             - requires full path of the zip file (zip file must exist) (e.g. My Documents\Folder1\compressed.zip)
+	Destination     - requires full destination path (e.g. My Documents\Folder1)
 
-Output:
-Completion    - return True if unzip is completed. Otherwise, it returns False
+	Output:
+	Completion    - return True if unzip is completed. Otherwise, it returns False
 
 Zip a Folder or File Activity:
-Input:
-Path                 - requires Folder or File Path which needs to be Zipped (e.g. My Documents\Folder1)
-Destination    - requires destination path along with zip name (e.g. My Documents\result.zip)
+	Input:
+	Path                 - requires Folder or File Path which needs to be Zipped (e.g. My Documents\Folder1)
+	Destination    - requires destination path along with zip name (e.g. My Documents\result.zip)
 
-Output:
-Completion    - return True if unzip is completed. Otherwise, it returns False
+	Output:
+	Completion    - return True if unzip is completed. Otherwise, it returns False
 
 Script Executor Activity:
 
-Input:
-Program Name    - Name of the Program to run (e.g. python, node, perl, gcc, g++,  etc.,)
-Script File     - requires Script File path (e.g. My Documents/learn.py)
-Input File      - requires Input File path. Input should be given in a text file (e.g. My Documents/input.txt) 
+	Input:
+	Program Name    - Name of the Program to run (e.g. python, node, perl, gcc, g++,  etc.,)
+	Script File     - requires Script File path (e.g. My Documents/learn.py)
+	Input File      - requires Input File path. Input should be given in a text file (e.g. My Documents/input.txt) 
 
-Output:
-Output       -   returns Output of the Script File after execution
-Error        - returns completion status. Returns true, if executed successfully. Otherwise, it returns false
+	Output:
+	Output       -   returns Output of the Script File after execution
+	Error        - returns completion status. Returns true, if executed successfully. Otherwise, it returns false
