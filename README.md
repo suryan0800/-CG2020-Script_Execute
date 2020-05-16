@@ -20,6 +20,7 @@ List of Activities created:
 3.	(Code) Script Executor
 
 Use Cases:
+
 	For example purpose, I took Python. It can be any script language(C, C++, Nodejs etc.), if the interpreter is preinstalled. It can execute and get the output. It uses CMD to execute it.
 	Since it can run any script file, it can be used for other purposes too. It would be easy for non C Sharp programmers like me and it will be easy to add features to the Robot as it doesn’t require any building, updating of Packages.  
 
@@ -45,6 +46,7 @@ Unzip File Activity:
 	Completion    - return True if unzip is completed. Otherwise, it returns False
 
 Zip a Folder or File Activity:
+
 	Input:
 	Path                 - requires Folder or File Path which needs to be Zipped (e.g. My Documents\Folder1)
 	Destination    - requires destination path along with zip name (e.g. My Documents\result.zip)
